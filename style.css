@@ -13,25 +13,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.banner-container, .information-container, .quotebox-container, .account-container, .footer{
+.header-container, .information-container, .quotebox-container, .account-container, .footer{
     display:flex;
     flex:1;
     border: 3px dotted red;
 }
 
-.header, .header-left, .header-right{
-    display:flex;
-    flex:1;
-    background-color: #1F2937;
-    color:white;
-}
-
-.header-left{
 
 
-}
 
-.header-right{
 
-}
-
+/*BANNER STYLING*/
