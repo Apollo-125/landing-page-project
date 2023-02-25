@@ -17,7 +17,7 @@ body{
     flex:1;
     
 }
-/* HEADER STYLING */
+                        /* HEADER STYLING */
 
 .header, .banner-container{
     background-color: #1F2937;
@@ -55,7 +55,7 @@ body{
     font-weight: bold;
 }
 
-/* BANNER STYLING */
+                        /* BANNER STYLING */
 
 .banner-container{
     padding-top:60px;
@@ -76,7 +76,7 @@ body{
 .banner-right{
     justify-content: center;
     margin-right:15vw;
-    border: 3px dotted blue;
+    background-color: darkgrey;
 }
 
 .hero-main{
@@ -84,7 +84,6 @@ body{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-
 }
 
 .hero-sub{
@@ -101,5 +100,46 @@ body{
     padding-right:15px;
     border-radius: 8px;
     color: #F9FAF8;
-
+    margin-top:15px;
 }
+
+
+/* Information styling */
+
+.information-container{
+    display:flex;
+    flex-direction: column;
+    padding:25px;
+}
+
+.information-box{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.information-title{
+    text-align: center;
+    font-weight:bold;
+    color: #1F2937;
+    font-size:36px;
+}
+
+.information-stamp{
+    flex:1;
+    max-width: 130px;
+    margin:25px;
+}
+
+.information-image{
+    border:3px solid blue;
+    border-radius: 10px;
+    min-width: 125px;
+    min-height:125px;
+}
+
+.stamp-subtext{
+    color: black;
+    text-align: center;
+}
+ 
