@@ -20,7 +20,7 @@ body{
 }
                         /* HEADER STYLING */
 
-.header, .banner-container{
+.header, .footer, .banner-container{
     background-color: #1F2937;
 }
 .header{
@@ -202,4 +202,17 @@ body{
     padding-left:30px;
     padding-right:30px;
     border-radius: 5px;
+}
+
+/*Footer styling*/
+
+.footer{
+    margin-bottom:0px;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+}
+
+.footer-text{
+    color: white;
 }
