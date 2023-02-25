@@ -15,6 +15,7 @@ body{
 .banner-container, .information-container, .quotebox-container, .account-container, .footer{
     display:flex;
     flex:1;
+    min-height:33vh;
     
 }
                         /* HEADER STYLING */
@@ -142,4 +143,37 @@ body{
     color: black;
     text-align: center;
 }
+
+
+/*QUOTEBOX STYLING*/
+
+.quotebox-container{
+    background-color: #e5e7eb;
+    padding:25px;
+}
+
+.quotebox-wrapper{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size:36px;
+    font-style:italic;
+    color: #1f2937;
+    max-width:490px;
+}
+
+.quote-author{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    min-width:470px;
+    margin-top:15px;
+
+
  
